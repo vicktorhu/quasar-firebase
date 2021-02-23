@@ -6,7 +6,7 @@
   "author": "vicktorhu <vicktor.hutama@gmail.com>",
   "private": true,
   "scripts": {
-    "dev": "quasar dev",
+    "dev": "cross-env QENV=development quasar dev",
     "dev:pwa": "quasar dev -m pwa",
     "dev:android": "quasar dev -m capacitor -T android",
     "dev:ios": "quasar dev -m capacitor -T ios",
@@ -25,9 +25,10 @@
     "quasar": "^1.0.0"
   },
   "devDependencies": {
-    "@quasar/app": "^2.0.0"
+    "@quasar/app": "^2.0.0",
+    "@quasar/quasar-app-extension-qenv": "^1.1.0",
+    "cross-env": "^7.0.3"
   },
-  "dev": "cross-env QENV=development quasar dev",
   "browserslist": [
     "last 10 Chrome versions",
     "last 10 Firefox versions",
