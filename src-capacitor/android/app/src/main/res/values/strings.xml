@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Quasar Firebase</string>
+    <string name="title_activity_main">Quasar Firebase</string>
+    <string name="package_name">org.vicktor.quasarfirebase</string>
+    <string name="custom_url_scheme">org.vicktor.quasarfirebase</string>
+</resources>

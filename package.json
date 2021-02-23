@@ -7,16 +7,16 @@
   "private": true,
   "scripts": {
     "dev": "cross-env QENV=development quasar dev",
-    "dev:pwa": "quasar dev -m pwa",
-    "dev:android": "quasar dev -m capacitor -T android",
-    "dev:ios": "quasar dev -m capacitor -T ios",
-    "dev:elec": "quasar dev -m electron",
-    "build:elecns": "quasar build -m electron -- --no-sandbox --disable-setuid-sandbox",
-    "build": "QENV=development quasar build",
+    "dev:pwa": "cross-env QENV=development quasar dev -m pwa",
+    "dev:android": "cross-env QENV=development quasar dev -m capacitor -T android",
+    "dev:ios": "cross-env QENV=development quasar dev -m capacitor -T ios",
+    "dev:elec": "cross-env QENV=development quasar dev -m electron",
+    "build:elecns": "cross-env QENV=development quasar build -m electron -- --no-sandbox --disable-setuid-sandbox",
+    "build": "cross-env QENV=development quasar build",
     "build:pwa": "cross-env QENV=development quasar build -m pwa",
-    "build:android": "quasar build -m capacitor -T android",
-    "build:ios": "quasar build -m capacitor -T ios",
-    "build:elec": "quasar build -m electron"
+    "build:android": "cross-env QENV=development quasar build -m capacitor -T android",
+    "build:ios": "cross-env QENV=development quasar build -m capacitor -T ios",
+    "build:elec": "cross-env QENV=development quasar build -m electron"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
@@ -28,6 +28,11 @@
     "@quasar/app": "^2.0.0",
     "@quasar/quasar-app-extension-qenv": "^1.1.0",
     "cross-env": "^7.0.3",
+    "devtron": "^1.4.0",
+    "electron": "^9.4.3",
+    "electron-debug": "^3.2.0",
+    "electron-devtools-installer": "^3.1.1",
+    "electron-packager": "^14.2.1",
     "workbox-webpack-plugin": "^5.1.4"
   },
   "browserslist": [

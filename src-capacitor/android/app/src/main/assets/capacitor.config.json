@@ -1,0 +1,10 @@
+{
+  "appId": "org.vicktor.quasarfirebase",
+  "appName": "Quasar Firebase",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "server": {
+    "url": "http://192.168.2.21:8080"
+  }
+}

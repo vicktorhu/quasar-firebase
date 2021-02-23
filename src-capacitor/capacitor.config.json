@@ -1,0 +1,7 @@
+{
+  "appId": "org.vicktor.quasarfirebase",
+  "appName": "Quasar Firebase",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}
