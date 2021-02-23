@@ -12,7 +12,7 @@
     "dev:ios": "quasar dev -m capacitor -T ios",
     "dev:elec": "quasar dev -m electron",
     "build:elecns": "quasar build -m electron -- --no-sandbox --disable-setuid-sandbox",
-    "build": "cross-env QENV=development quasar build",
+    "build": "QENV=development quasar build",
     "build:pwa": "cross-env QENV=development quasar build -m pwa",
     "build:android": "quasar build -m capacitor -T android",
     "build:ios": "quasar build -m capacitor -T ios",

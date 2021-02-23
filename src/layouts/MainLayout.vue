@@ -53,22 +53,22 @@ const linksData = [
   {
     title: 'Login',
     icon: 'login',
-    link: '/#/auth/login'
+    link: '/#/auth/login/'
   },
   {
     title: 'Register',
     icon: 'person_add',
-    link: '/#/auth/register'
+    link: '/#/auth/register/'
   },
   {
     title: 'Forgot Password',
     icon: 'lock_open',
-    link: '/#/auth/forgotPassword'
+    link: '/#/auth/forgotPassword/'
   },
   {
     title: 'Profile',
     icon: 'person',
-    link: '/#/user'
+    link: '/#/user/'
   },
 ];
 
