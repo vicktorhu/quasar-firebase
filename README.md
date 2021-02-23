@@ -1,22 +1,7 @@
-# Quasar Firebase (quasar-firebase)
+# Quasar Firebase Demo
 
-Quasar Demo with Firebase
+Quasar Demo with Firebase. Also can serve as a template.
 
-## Install the dependencies
-```bash
-npm install
-```
+Demo: https://vicquasarfirebase.netlify.app/
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
-
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
+Based on https://dev.to/quasar/to-the-stars-with-quasar-firebase-email-authentication-37dh

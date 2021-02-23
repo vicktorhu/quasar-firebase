@@ -13,7 +13,7 @@
     "dev:elec": "quasar dev -m electron",
     "build:elecns": "quasar build -m electron -- --no-sandbox --disable-setuid-sandbox",
     "build": "quasar build",
-    "build:pwa": "quasar build -m pwa",
+    "build:pwa": "QENV=quasar build -m pwa",
     "build:android": "quasar build -m capacitor -T android",
     "build:ios": "quasar build -m capacitor -T ios",
     "build:elec": "quasar build -m electron"
