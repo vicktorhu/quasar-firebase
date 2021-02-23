@@ -12,11 +12,11 @@
     "dev:ios": "cross-env QENV=development quasar dev -m capacitor -T ios",
     "dev:elec": "cross-env QENV=development quasar dev -m electron",
     "build:elecns": "cross-env QENV=development quasar build -m electron -- --no-sandbox --disable-setuid-sandbox",
-    "build": "cross-env QENV=development quasar build",
-    "build:pwa": "cross-env QENV=development quasar build -m pwa",
-    "build:android": "cross-env QENV=development quasar build -m capacitor -T android",
-    "build:ios": "cross-env QENV=development quasar build -m capacitor -T ios",
-    "build:elec": "cross-env QENV=development quasar build -m electron"
+    "build": "cross-env QENV=production quasar build",
+    "build:pwa": "cross-env QENV=production quasar build -m pwa",
+    "build:android": "cross-env QENV=production quasar build -m capacitor -T android",
+    "build:ios": "cross-env QENV=production quasar build -m capacitor -T ios",
+    "build:elec": "cross-env QENV=production quasar build -m electron"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
