@@ -12,8 +12,8 @@
     "dev:ios": "quasar dev -m capacitor -T ios",
     "dev:elec": "quasar dev -m electron",
     "build:elecns": "quasar build -m electron -- --no-sandbox --disable-setuid-sandbox",
-    "build": "quasar build",
-    "build:pwa": "QENV=quasar build -m pwa",
+    "build": "cross-env QENV=development quasar build",
+    "build:pwa": "cross-env QENV=development quasar build -m pwa",
     "build:android": "quasar build -m capacitor -T android",
     "build:ios": "quasar build -m capacitor -T ios",
     "build:elec": "quasar build -m electron"
@@ -27,7 +27,8 @@
   "devDependencies": {
     "@quasar/app": "^2.0.0",
     "@quasar/quasar-app-extension-qenv": "^1.1.0",
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "workbox-webpack-plugin": "^5.1.4"
   },
   "browserslist": [
     "last 10 Chrome versions",
