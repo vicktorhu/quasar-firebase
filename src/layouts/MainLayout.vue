@@ -50,6 +50,11 @@ import EssentialLink from 'components/EssentialLink.vue'
 
 const linksData = [
   {
+    title: 'Home',
+    icon: 'home',
+    link: '/'
+  },
+  {
     title: 'Login',
     icon: 'login',
     link: '/auth/login/'

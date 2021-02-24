@@ -60,13 +60,13 @@
       </q-btn>
 
       <p class="q-mt-md q-mb-none text-center">
-          <router-link class="text-blue" :to="routeAuthentication">
+          <router-link class="text-primary" :to="routeAuthentication">
             <span v-if="isRegistration">Need to login?</span>
             <span v-else>Need to create an account?</span>
           </router-link>
       </p>
       <p class="q-ma-sm text-center">
-          <router-link class="text-blue" to="forgotPassword">Forgot Password?</router-link>
+          <router-link class="text-primary" to="forgotPassword">Forgot Password?</router-link>
       </p>
     </q-form>
   </q-page>
