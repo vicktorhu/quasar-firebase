@@ -22,13 +22,12 @@
     <q-drawer
       v-model="leftDrawerOpen"
       show-if-above
-      bordered
-      content-class="bg-grey-1"
+      content-class="bg-grey-10"
     >
       <q-list>
         <q-item-label
           header
-          class="text-grey-8"
+          class="text-grey-1"
         >
           Essential Links
         </q-item-label>
