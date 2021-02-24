@@ -27,9 +27,9 @@
       <q-list>
         <q-item-label
           header
-          class="text-grey-1"
+          class="text-primary text-h6"
         >
-          Essential Links
+          Quasar Firebase
         </q-item-label>
         <EssentialLink
           v-for="link in essentialLinks"
