@@ -7,7 +7,8 @@
       Quasar Firebase Demo
     </div>
     <div class="q-px-lg q-mt-md text-h7 text-center">
-      By Vicktor Hutama (<a href="https://github.com/vicktorhu/quasar-firebase" class="text-primary">vicktorhu</a>) | Based on <a href="https://dev.to/quasar/to-the-stars-with-quasar-firebase-user-profile-319l" class="text-primary">this tutorial</a>
+      By Vicktor Hutama (<a target="_blank" href="https://github.com/vicktorhu/quasar-firebase" class="text-primary">vicktorhu</a>) | 
+      Based on <a target="_blank" href="https://dev.to/quasar/to-the-stars-with-quasar-firebase-user-profile-319l" class="text-primary">this tutorial</a>
     </div>
     <div class="q-px-lg q-mt-sm text-h6 text-center">
       Click here to
