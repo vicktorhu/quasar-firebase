@@ -1,5 +1,3 @@
 # Quasar Firebase Demo
 
-Quasar Demo with Firebase. Also can serve as a template.
-
-Based on https://dev.to/quasar/to-the-stars-with-quasar-firebase-email-authentication-37dh
+**DEPRECATED.** Rewritten from scratch using Vue 3 & Typescript here: https://github.com/vicktorhu/quasar-firebase-template.
